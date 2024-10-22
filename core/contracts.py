@@ -61,4 +61,3 @@ LOGIN_USER_SCHEME = {
     },
     "required": ['token']
 }
-
