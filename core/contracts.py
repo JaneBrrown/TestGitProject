@@ -43,3 +43,21 @@ UPDATED_USER_SCHEME = {
     },
     "required": []
 }
+
+REGISTER_USER_SCHEME = {
+    "type": "object",
+    "properties": {
+        "id": {"type": "number"},
+        "token": {"type": "string"}
+    },
+    "required": []
+}
+
+
+LOGIN_USER_SCHEME = {
+    "type": "object",
+    "properties": {
+        "token": {"type": "string"}
+    },
+    "required": ['token']
+}

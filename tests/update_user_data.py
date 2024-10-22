@@ -50,7 +50,7 @@ def test_update_user_job_put_without_name():
         assert date_of_update[0:16] == current_date[0:16]
 
 
-def test_update_user_job_put_without_ob():
+def test_update_user_job_put_without_job():
     with allure.step(f'Делаем запрос по адресу: {BASE_URL + UPDATE_USER}'):
         body = {
         "name": "morpheus"
